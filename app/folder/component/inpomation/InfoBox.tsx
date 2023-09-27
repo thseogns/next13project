@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import picture from "./picture.jpg";
 import DetailInfo from "./DetailInfo";
+import Link from "next/link";
 
 const InfoBox = () => {
   const linksNames = ["자기소개서", "github"];
@@ -32,7 +33,20 @@ const InfoBox = () => {
               </p>
             </div>
           </div>
-          <div className=""></div>
+          <div className="w-full flex">
+            <Link
+              className="border mr-1 p-3 w-50% block text-center rounded-lg"
+              href="https://github.com/thseogns/next13project"
+            >
+              Github 주소
+            </Link>
+            <Link
+              className="border ml-1 p-3 w-50% block text-center rounded-lg"
+              href="/손대훈 입사지원서.pdf"
+            >
+              입사 지원서
+            </Link>
+          </div>
         </div>
       </div>
     </div>
