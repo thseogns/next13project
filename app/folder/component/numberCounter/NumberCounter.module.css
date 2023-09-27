@@ -1,0 +1,54 @@
+/** @format */
+.flex {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  padding: 15px 10px;
+  border: 1px solid #929292;
+  border-bottom: none;
+}
+.flex:first-child {
+  border: 1px solid #929292;
+  border-radius: 15px 15px 0 0;
+  border-bottom: none;
+}
+.flex:last-child {
+  border: 1px solid #929292;
+  border-radius: 0 0 15px 15px;
+}
+.twin {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  padding: 15px 10px;
+}
+.twin:first-child {
+  border: 1px solid #929292;
+  border-radius: 15px 15px 0 0;
+}
+.twin:last-child {
+  border: 1px solid #929292;
+  border-top: none;
+  border-radius: 0 0 15px 15px;
+}
+.firstBorder {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  padding: 15px 10px;
+  border: 1px solid #929292;
+  border-radius: 15px;
+}
+
+.delete {
+  margin-left: 80px;
+  padding: 10px 20px;
+}
+.countName {
+  display: flex;
+}
+.aling {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}

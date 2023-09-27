@@ -1,0 +1,17 @@
+.main {
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25%, auto));
+}
+.boxCover {
+  display: flex;
+  align-items: center;
+}
+.sub {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25%, auto));
+}
+.other {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25%, auto));
+}
