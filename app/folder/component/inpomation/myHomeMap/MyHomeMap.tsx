@@ -10,9 +10,11 @@ declare global {
 
 const MyHomeMap = () => {
   React.useEffect(() => {
+    const kakaomapKey = process.env.NEXT_PUBLIC_KAKAOMAP_KEY;
+    console.log("dasdasd", kakaomapKey);
     const kakaoMapScript = document.createElement("script");
     kakaoMapScript.async = false;
-    kakaoMapScript.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=700d399006256f95732f06b19c046ba5&autoload=false`;
+    kakaoMapScript.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${kakaomapKey}&autoload=false`;
     document.head.appendChild(kakaoMapScript);
 
     const onLoadKakaoAPI = () => {
