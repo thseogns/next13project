@@ -28,7 +28,7 @@ const DetailInfo = () => {
       </strong>
       <strong>
         <FaRegAddressBook />
-        <span>주소 : 서울특별시 신림동</span>
+        <span>주소 : 경기도 평택시 현화중앙길53 </span>
       </strong>
     </div>
   );
