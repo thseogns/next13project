@@ -21,13 +21,13 @@ const MyHomeMap = () => {
       window.kakao.maps.load(() => {
         var container = document.getElementById("map");
         var options = {
-          center: new window.kakao.maps.LatLng(37.465896, 126.9316562),
+          center: new window.kakao.maps.LatLng(36.9842, 126.9206),
           level: 3,
         };
 
         var map = new window.kakao.maps.Map(container, options);
         const map2 = new kakao.maps.Map(container, options);
-        const markerPosition = new kakao.maps.LatLng(37.465896, 126.9316562);
+        const markerPosition = new kakao.maps.LatLng(36.9842, 126.9206);
         const marker = new kakao.maps.Marker({
           position: markerPosition,
         });
